@@ -1,0 +1,17 @@
+cmd 1
+-------------------------
+javac ServerConvert.java
+
+javac ClientConvert.java
+
+rmic ServerConvert
+
+rmiregistry
+
+cmd2
+------------------------
+java ServerConvert
+
+cmd3
+-----------------------
+java ClientConvert

@@ -1,0 +1,17 @@
+cmd 1
+-------------------------
+javac ServerDate.java
+
+javac ClientDate.java
+
+rmic ServerDate
+
+rmiregistry
+
+cmd2
+------------------------
+java ServerDate
+
+cmd3
+-----------------------
+java ClientDate
